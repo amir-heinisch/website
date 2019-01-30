@@ -1,0 +1,58 @@
+#######################################################
+#                                                     #
+# This file contains the hugo configurations.         #
+#                                                     #
+# @package    website                                 #
+# @filename   config.toml                             #
+# @author     Amir Heinisch <mail@amir-heinisch.de>   #
+# @link       https://amir-heinisch.de                #
+# @version    1.0                                     #
+#                                                     #
+#######################################################
+
+baseurl = "https://amir-heinisch.de"
+title = "amir-heinisch.de"
+
+pluralizelisttitles = false
+canonifyurls = true
+paginate = 10
+
+[Taxonomies]
+
+[params]
+    author = "Amir Heinisch"
+    description = "Amir Heinisch's website"
+    keywords = "personal,website,projects,blog,security,developer,it,admin,student"
+    info = "Cybersecurity Student<br>Web & Mobile Developer | IT Administrator"
+    main_img_url = "/images/photo.png"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/amir-heinisch"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
+    url = "https://twitter.com/amir_heinisch"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/amir-heinisch/"
+[[params.social]]
+    name = "Xing"
+    icon = "fab fa-xing"
+    weight = 4
+    url = "https://www.xing.com/profile/Amir_Heinish/"
+[[params.social]]
+    name = "Mail"
+    icon = "fa fa-envelope"
+    weight = 5
+    url = "mailto:mail@amir-heinisch.de"
+[[params.social]]
+    name = "PGP Key"
+    icon = "fa fa-key"
+    weight = 6
+    url = "https://amir-heinisch.de/pgp_key.pub"
